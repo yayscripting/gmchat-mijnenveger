@@ -4,3 +4,4 @@ bugs*.txt
 highscore*.txt
 check_ban.php
 cgi-bin
+winlog.txt
