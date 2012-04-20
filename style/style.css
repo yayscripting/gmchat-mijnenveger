@@ -1,0 +1,189 @@
+body {
+	background-color: #DDFFDD;
+	font-size: small;
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.display {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.leftContent {
+	width: 90px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.p1 {
+	width: 100%;
+	text-align: center;
+
+	position: relative;
+	top: 10px;
+}
+
+.minesleft {
+	font-size: 13pt;
+	font-weight: bold;
+	
+	width: 100%;
+	text-align: center;
+
+	margin-top: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+	background-color: red;
+
+	height: 20px;
+}
+
+.p2 {
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.namep1 {
+	font-size: 13pt;
+	font-weight: bold;
+	color: green;
+}
+
+.namep2 {
+	font-size: 13pt;
+	font-weight: bold;
+	color: red;
+}
+
+.p1 .iam {
+	margin-top: 20px;
+	color: red;
+}
+
+
+.p2 .iam {
+	margin-top: 21px;
+	color: red;
+}
+
+
+.otherleft {
+	color: red;
+}
+
+.selfleft {
+	color: green;
+}
+
+.p1left {
+	position: absolute;
+	height: 20px;
+	width: 45px;
+	background-color: green;
+}
+
+.minesleft_counter {
+	position: absolute;
+	left: 39px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	color: blue;
+}
+
+.minesleft_counter:hover {
+	background-color: #DDFFDD;;
+	color: black;
+}
+
+.playfield {
+	float: left;
+	width: 200px;
+}
+	
+
+.playfield table {
+	width: 100%;
+	height: 100%;
+}
+
+.playfield .field {
+	text-align: center;
+	border: 1px solid black;
+	
+	cursor: pointer;
+
+	width: 16px;
+	height: 19px;
+
+	float: left;
+
+	margin: 1px;
+}
+
+.grade_1 {
+	color: #4900E8;
+}
+
+.grade_2 {
+	color: #001FFF;
+}
+
+.grade_3 {
+	color: #C000FF;
+}
+
+.grade_4 {
+	color: #E80899;
+}
+
+.grade_5 {
+	color: #FF2419;
+}
+
+.grade_6 {
+	color: #CA20E8;
+}
+
+.grade_7 {
+	color: #AB23FF;
+}
+
+.grade_8 {
+	color: #FF3C3C;
+}
+
+.grade_p1 {
+	color: green;
+}
+
+.grade_p2 {
+	color: red;
+}
+
+.lastp1 {
+	border: 1px solid green !important;
+	text-decoration: underline;
+}
+
+.lastp2 {
+	border: 1px solid red !important;
+	text-decoration: underline;
+}
